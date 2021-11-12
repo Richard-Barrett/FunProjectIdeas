@@ -5,5 +5,5 @@ WORKDIR /w
 RUN go build github.com/Richard-Barrett/FunProjectIdeas/cmd/funprojectideas
 
 FROM alpine:3.14.2
-COPY --from=magnetite /w/FunProjectIdeas /bin/funprojectideas
+COPY --from=funprojectideas /w/FunProjectIdeas /bin/funprojectideas
 ENTRYPOINT [ "/bin/funprojectideas" ]
