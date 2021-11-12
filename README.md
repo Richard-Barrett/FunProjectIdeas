@@ -1,2 +1,2 @@
 # FunProjectIdeas
-A Complete List of Fun IT Projects and Assignments
+A Running List of Fun IT Projects and Assignments
